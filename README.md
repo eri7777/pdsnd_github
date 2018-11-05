@@ -14,3 +14,6 @@ washington.csv
 
 ### Credits
 Udacity
+
+### Creator
+Eriko Fujiwara

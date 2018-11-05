@@ -26,7 +26,7 @@ def get_filters():
             i = 1
         else:
             i = 0
-            print("The name you entered is not valid.")
+            print("Please choose a city from Chicago, New York City, or Washington.")
 
     # TO DO: get user input for month (all, january, february, ... , june)
     months = ['january', 'february', 'march','april','may','june']
