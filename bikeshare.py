@@ -42,8 +42,7 @@ def get_filters():
     days = ['monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday','sunday']
     i = 0
     while i != 1:
-        day = input("Please choose Monday thorough Sunday: ")
-        day = day.lower()
+        day = input("Please choose Monday thorough Sunday: ").lower()
         if day in days:
             i = 1
         else:
