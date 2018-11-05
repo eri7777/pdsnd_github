@@ -31,8 +31,7 @@ def get_filters():
     months = ['january', 'february', 'march','april','may','june']
     i = 0
     while i != 1:
-        month = input("Please choose from January to June: ")
-        month = month.lower()
+        month = input("Please choose from January to June: ").lower()
         if month in months:
             i = 1
         else:
